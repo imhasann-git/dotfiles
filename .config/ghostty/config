@@ -1,0 +1,10 @@
+font-family="font-meslo-lg-nerd-font"
+font-size=20
+shell-integration-features = no-cursor
+cursor-style-blink=false
+mouse-hide-while-typing=true
+background-opacity=0.8
+background-blur=true
+maximize=true
+title = " "
+

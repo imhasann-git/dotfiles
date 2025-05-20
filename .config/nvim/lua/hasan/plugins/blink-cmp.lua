@@ -1,0 +1,29 @@
+return {
+  'saghen/blink.cmp',
+  dependencies = { 'rafamadriz/friendly-snippets' },
+	build = "cargo build --release",
+  version = '1.*',
+
+  opts = {
+    keymap = { preset = 'default' },  -- Use a valid preset like 'default'
+
+    appearance = {
+      nerd_font_variant = 'mono',
+    },
+
+    completion = {
+      documentation = { auto_show = false },
+    },
+
+    fuzzy = {
+      implementation = 'prefer_rust_with_warning',
+    },
+  },
+
+  opts_extend = {
+	  sources = {
+		  {name = 'nvim-lsp'},
+		  {name = 'luasnip'},
+	  }
+  },
+}

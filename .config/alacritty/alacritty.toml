@@ -1,0 +1,61 @@
+# Alacritty Dark Gold Theme (TOML format)
+
+# Environment variables
+[env]
+TERM = "xterm-256color"
+
+# Window configuration
+[window]
+padding = { x = 10, y = 10 }
+decorations = "Buttonless"
+opacity = 0.8
+blur = true
+option_as_alt = "Both"
+startup_mode = "Windowed"
+
+# Font configuration
+[font]
+normal = { family = "MesloLGS Nerd Font Mono" }
+size = 20
+
+# Dark Gold Theme Colors
+[colors.primary]
+background = "#0f1419"    # Deep space black
+foreground = "#e6e1cf"    # Aged parchment
+
+# Metallic gold accents
+[colors.cursor]
+text = "#0f1419"          # Background color
+cursor = "#D4AF37"        # Classic metallic gold
+
+[colors.selection]
+text = "#0f1419"
+background = "#D4AF37"    # Gold highlight
+
+# Normal colors (warmer palette)
+[colors.normal]
+black = "#0f1419"         # Background
+red = "#FF6B6B"           # Terra cotta
+green = "#A8B34C"         # Olive
+yellow = "#D4AF37"        # Primary gold
+blue = "#6A9FB5"          # Aged denim
+magenta = "#D3869B"       # Desert rose
+cyan = "#FFD700"          # Vibrant gold
+white = "#b3b1ad"         # Weathered stone
+
+# Bright colors (amplified versions)
+[colors.bright]
+black = "#3d424d"         # Dark slate
+red = "#FF9999"           # Coral
+green = "#C0D861"         # Chartreuse
+yellow = "#FFE87C"        # Light gold
+blue = "#8AB8C7"          # Sky
+magenta = "#E5A3B5"       # Blush
+cyan = "#FFE87C"          # Pale gold
+white = "#e6e1cf"         # Cream
+
+# Keyboard bindings
+[[keyboard.bindings]]
+key = "Return"
+mods = "Command"
+action = "ToggleFullscreen"
