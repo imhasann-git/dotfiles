@@ -1,8 +1,8 @@
+
 return {
-	"rebelot/kanagawa.nvim",
-	config = function()
-		require("kanagawa").setup({
-		})
-		vim.cmd("colorscheme kanagawa-wave")
-	end
+  "savq/melange-nvim",
+  config = function()
+    vim.o.background = "light"
+    vim.cmd("colorscheme melange")
+  end
 }

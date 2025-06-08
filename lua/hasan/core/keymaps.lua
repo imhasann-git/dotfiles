@@ -19,14 +19,9 @@ keymap.set("n", "<C-h>", "<C-w>h", { desc = "Move focus to the left window" })
 keymap.set("n", "<C-l>", "<C-w>l", { desc = "Move focus to the right window" })
 keymap.set("n", "<C-j>", "<C-w>j", { desc = "Move focus to the lower window" })
 keymap.set("n", "<C-k>", "<C-w>k", { desc = "Move focus to the upper window" })
-
--- Disable arrow keys
-vim.keymap.set("n", "<Up>", "<Nop>", { noremap = true, silent = true })
-vim.keymap.set("n", "<Down>", "<Nop>", { noremap = true, silent = true })
-vim.keymap.set("n", "<Left>", "<Nop>", { noremap = true, silent = true })
-vim.keymap.set("n", "<Right>", "<Nop>", { noremap = true, silent = true })
-
--- For nvim-tree
-vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>", { noremap = true, silent = true }) -- Toggle tree
-vim.keymap.set("n", "<leader>r", ":NvimTreeRefresh<CR>", { noremap = true, silent = true }) -- Refresh
-vim.keymap.set("n", "<leader>n", ":NvimTreeFindFile<CR>", { noremap = true, silent = true }) -- Find file
+--
+-- -- Disable arrow keys
+-- vim.keymap.set("n", "<Up>", "<Nop>", { noremap = true, silent = true })
+-- vim.keymap.set("n", "<Down>", "<Nop>", { noremap = true, silent = true })
+-- vim.keymap.set("n", "<Left>", "<Nop>", { noremap = true, silent = true })
+-- vim.keymap.set("n", "<Right>", "<Nop>", { noremap = true, silent = true })

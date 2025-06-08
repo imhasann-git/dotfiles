@@ -3,11 +3,12 @@ vim.cmd("let g:netrw_liststyle = 3")
 vim.o.mouse = ""
 
 local opt = vim.opt
+opt.termguicolors = true
+opt.background = "light"
 
 opt.number = true
 opt.relativenumber = true
 
-opt.guicursor = "n-v-c:block-Cursor"
 opt.tabstop = 4
 opt.shiftwidth = 4
 opt.autoindent = true

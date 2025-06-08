@@ -36,7 +36,6 @@ return {
 				gopls = {},
 				clangd = {},
 				ts_ls = {},
-				jdtls = {},
 				pyright = {},
 			}
 			for server, config in pairs(servers) do
