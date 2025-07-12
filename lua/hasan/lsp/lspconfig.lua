@@ -31,13 +31,14 @@ return {
 				vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename,
 					vim.tbl_extend("force", { desc = "Smart Rename" }, bufopts))
 			end
+
 			local servers = {
 				lua_ls = {},
-				gopls = {},
 				clangd = {},
 				ts_ls = {},
 				pyright = {},
 			}
+
 			for server, config in pairs(servers) do
 				config.capabilities = capabilities
 				config.on_attach = on_attach

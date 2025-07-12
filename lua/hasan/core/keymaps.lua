@@ -25,3 +25,6 @@ keymap.set("n", "<C-k>", "<C-w>k", { desc = "Move focus to the upper window" })
 -- vim.keymap.set("n", "<Down>", "<Nop>", { noremap = true, silent = true })
 -- vim.keymap.set("n", "<Left>", "<Nop>", { noremap = true, silent = true })
 -- vim.keymap.set("n", "<Right>", "<Nop>", { noremap = true, silent = true })
+
+-- Neotree
+vim.keymap.set('n', '<leader>n', ':Neotree toggle<CR>', { noremap = true, silent = true })
