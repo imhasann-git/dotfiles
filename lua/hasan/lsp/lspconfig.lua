@@ -36,6 +36,8 @@ return {
 				lua_ls = {},
 				clangd = {},
 				ts_ls = {},
+				html = {},
+				cssls = {},
 				pyright = {},
 			}
 
